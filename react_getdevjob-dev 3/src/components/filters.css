@@ -1,0 +1,56 @@
+.sidebar {
+    margin-top: 4%;
+}
+
+.distance{
+    height:100px;
+}
+#filterSideNav{
+	height:100%;
+}
+
+.checkboxArea{
+    font-size: 1em;
+}
+.sideTrigger {
+	font-size: 1.2em;
+	position: fixed;
+	top: 1.9%;
+	z-index: 999;
+	left: 9%;
+	cursor: pointer;
+}
+
+svg {
+	top: .25vh;
+}
+.fi-submit-btn{
+	z-index: 1000
+}
+
+.side-nav a:hover {
+     background-color: transparent !important; 
+}
+.input-row * {
+	background-color: inherit !important;
+	color: inherit !important;
+}
+.input-field label:not(.label-icon).active{
+	margin-top:23px;
+}
+.input-row button {
+	background-color: initial !important;
+	color: initial !important;
+}
+.filter-load-cont {
+	position: absolute;
+	left: 50%;
+}
+@keyframes appear{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.fi-appear {
+	
+    animation: appear 1.3s linear 1;
+}
